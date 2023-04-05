@@ -1,0 +1,224 @@
+body {
+    background-image: url("../images/ronaldo-bg.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.centered-container{
+    margin: 0 20%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    position: relative;
+}
+.logo{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.3);
+}
+.header{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    padding: 0 16px;
+}
+.center-header{
+    box-sizing: border-box;
+    width: 100%;
+    /* padding: 8px; */
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    font-size: 18px;
+    
+}
+.center-header a{
+    padding-bottom: 8px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: #282828;
+    border-bottom: 2px solid white;
+}
+#active-page{
+    border-bottom: 2px solid black;
+}
+.center-header a:hover{
+    text-decoration: none;
+    color: #282828;
+    border-bottom: 2px solid black;
+}
+.news-card-list{
+    margin: auto;
+    margin-top: 32px;
+    display: flex;
+    gap: 32px;
+}
+.news-card{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    flex-direction: column;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);  
+
+    height: 300px;
+    width: 180px;
+    cursor: pointer;
+}
+.card-image{
+    position: relative;
+    overflow: hidden;  
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    width: 100%; 
+    height: 100%;
+}
+.card-info{
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    font-size: 12px;
+    align-self: flex-end; 
+    padding: 0 8px;
+    color: rgba(255,255,255); 
+    line-height: 1;
+    font-weight: 1000;
+    text-shadow: 0 0 2px black;
+}
+.card-sport{ 
+    margin: 1px 0; 
+    font-size: 12px;
+    color: rgba(255,255,255);
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 2px;
+    width: fit-content;
+}
+.card-text{
+    margin: 8px 0;
+    font-size: 14px;
+}
+.news-card:hover{
+    transform: scale(1.03);
+}
+.news-columns{
+    display:flex;
+    gap: 32px;
+    margin-top: 64px;
+}
+.news-column{
+    width: 250px;
+}
+.news-column .hr{
+    height: 2px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.316);
+}
+.col-title{
+    padding-bottom: 4px;
+    width: fit-content;
+    padding:0;
+    margin:0;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.col-title:hover{
+    cursor: pointer;
+    color: green;
+}
+.football-column > .col-title{
+    border-bottom: 3px solid orange;
+}
+.basketball-column > .col-title{
+    border-bottom: 3px solid red;
+}
+.headline-column > .col-title{
+    border-bottom: 3px solid plum;
+}
+.first-news{
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+.first-news-image{
+    width: 250px;
+    height: 150px;
+    margin-top: 16px;
+    box-shadow: 0 0 1px black;
+}
+.first-news-headline{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.first-news-headline:hover{
+    color: green;
+}
+.news-author{
+    font-size: 12px;
+    margin: 0;
+    color:rgb(176, 176, 176);
+}
+
+.news-piece{
+    cursor: pointer;
+    margin-top: 8px;
+    display: flex;
+    gap: 4px;
+    /* align-items: flex-start; */
+}
+.news-piece:hover{
+    color:green;
+}
+.news-piece-text{
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+.news-piece img{
+    width: 90px;
+}
+.news-piece-author{
+    font-size: 10px;
+    margin-top: 4px;
+    color:rgb(176, 176, 176);
+
+}
+.footer{
+    margin-top: 128px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px 0;
+    box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.6);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    color: grey;
+}
+.socials{
+    display: flex;
+    gap: 16px;
+}
+.footer a{
+    color: black;
+}
+.about-info{
+    text-align: center;
+    font-size: 16px;
+    margin: 0 256px;
+}
+.about-text{
+    color: grey;
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+*{
+    /* font-family: 'Roboto', sans-serif; */
+    text-align: center;
+}
+
+/* body{
+    height: 100vh;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+.game-info{
+    margin-top: 32px;
+    display: flex;
+    gap: 16px;
+    height: 180px;
+    color: grey;
+}
+.game-info div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#country-flag, #league-logo{
+    width: 120px;   
+}
+#league-name{
+    margin-top: 0px;
+} 
+#season-no{
+    font-size: 20px;
+}
+h3{
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.container{
+    color: grey;
+    margin-top: 64px;
+    padding: 16px;
+    width: 80%;
+    background-color:#FAFAFA;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    box-shadow: 0 0 5px blue;
+}
+.container h1{
+    color: black;
+}
+.title-box{
+    margin: 25px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 1.5em;  
+    
+}
+.title-box1{
+    color: black;
+}
+.title-box #goals{
+    font-size: 1.8em;
+}
+.team{
+    width: 100px;
+}
+.team img{
+    height: 54px;
+    width: 54px;
+}
+.matches-table{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.match-tile{
+    position: relative;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.match-tile img{
+    width: 52px;
+    height: 52px;
+}
+.match-tile p{
+    font-size: 1.2rem;
+}
+
+.match-tile #goals{
+    font-size: 1.8rem;
+}
+.match-tile .team{
+    width: 100px;
+}
